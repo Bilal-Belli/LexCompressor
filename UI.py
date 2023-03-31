@@ -22,7 +22,7 @@ def hoverActive(boton, color1, color2, color3):
 def fonction1():
     global path
     path = filedialog.askopenfilename()
-    shutil.copyfile(path, "./test.txt")
+    # shutil.copyfile(path, "./test.txt")
 
 def fonction2():
     global path
